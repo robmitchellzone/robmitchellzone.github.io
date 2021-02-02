@@ -1,0 +1,56 @@
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+  */
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+body {
+    background: #24282d;
+}
+
+main {
+    background: white;
+    margin: 30px
+}
+
+header {
+    padding: 10px;
+}
+
+#header-image-window {
+    margin: 0 auto;
+}
+
+#header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15%;
+    max-height: auto;
+}
+
+#brand-name {
+    text-align: center;
+}
+
+#content {
+    padding: 250;
+}
+
+#bio {
+    text-align: center
+}
+
+#biography {
+    padding: 500px;
+    padding-top: 20px;
+}
