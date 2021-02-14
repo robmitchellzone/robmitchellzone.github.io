@@ -50,7 +50,11 @@ header {
     text-align: center
 }
 
+#bio-text {
+    display: inline-block;
+}
+
 #biography {
-    padding: 500px;
+    padding: 100px;
     padding-top: 20px;
 }
